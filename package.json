@@ -1,0 +1,19 @@
+{
+  "name": "custom-code",
+  "version": "1.0.0",
+  "description": "Custom code for Tuza Webflow project",
+  "main": "tabs.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "esbuild global.js --bundle --minify --sourcemap --watch --outfile=prod/global.js"
+  },
+  "author": "jimmyswrld",
+  "license": "ISC",
+  "dependencies": {
+    "gsap": "^3.12.5",
+    "split-type": "^0.3.4"
+  },
+  "devDependencies": {
+    "esbuild": "0.23.1"
+  }
+}
