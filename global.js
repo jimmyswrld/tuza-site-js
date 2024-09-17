@@ -25,4 +25,3 @@ gsap.from("[fade-in]", {
   duration: 2.5,
   ease: "power3.easeOut",
 });
-safas;
