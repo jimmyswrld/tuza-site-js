@@ -5,7 +5,8 @@
   "main": "tabs.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "esbuild global.js --bundle --minify --sourcemap --watch --outfile=prod/global.js"
+    "build": "esbuild global.js --bundle --minify --sourcemap --watch --outfile=prod/global.js",
+    "buildGrad": "esbuild gradient-movement.js --bundle --minify --sourcemap --watch --outfile=prod/gradient-movement.js"
   },
   "author": "jimmyswrld",
   "license": "ISC",
